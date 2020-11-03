@@ -7,7 +7,7 @@
     <FileVersion>1.0.0.0</FileVersion>
     <Configurations>Debug;Release;EasyTest</Configurations>
     <UserSecretsId>394f8f30-8ae0-4e96-83e3-44ca3cd15456</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DefineConstants>TRACE;DEBUG</DefineConstants>
@@ -27,6 +27,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Dapplo.Windows.Gdi32" Version="0.11.17" />
     <PackageReference Include="DevExpress.ExpressApp" Version="20.2.1-beta-20270" />
     <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="20.2.1-beta-20270" />
     <PackageReference Include="DevExpress.ExpressApp.FileAttachment.Blazor" Version="20.2.1-beta-20270" />
